@@ -24,7 +24,7 @@
 
 O objetivo é desenvolver uma loja de sapatos fictícia, a Rocketshoes.
 
-A aplicação consiste em aplicação feita em ReactJS e Redux que consome uma API utilizando json-server.
+O projeto consiste em aplicação feita em ReactJS e Redux que consome uma API utilizando json-server.
 
 ## 🔧 Tecnologias
 
