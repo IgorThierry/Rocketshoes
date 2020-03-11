@@ -16,12 +16,14 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['react', 'prettier'],
+  plugins: ['react', 'prettier', 'react-hooks'],
   rules: {
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.js'] }],
     'import/prefer-default-export': 'off',
     'no-console': ['error', { allow: ['tron'] }], //habilita console.tron
-    'no-param-reassign':'off', //desabilata validação que nao deixa alterar paramentro de função
+    'no-param-reassign': 'off', //desabilata validação que nao deixa alterar paramentro de função
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
 };
